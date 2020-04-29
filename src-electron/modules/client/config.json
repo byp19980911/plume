@@ -1,0 +1,39 @@
+{
+  "clients": {
+    "plume": {
+      "version": "0.0.6",
+      "platforms": {
+        "mac": {
+          "download": {
+            "url": "https://gitee.com/byp19980911/plume/raw/master/src/statics/mac/plume-darwin_0_0_6.tar.gz",
+            "md5": "23b3f456a718643853ccdc8e974de218",
+            "type": "tar",
+            "bin": "plume-darwin-0_0_6/plume"
+          },
+          "bin": "plume",
+          "commands": {
+            "sanity": {
+              "args": ["-v"],
+              "output": ["plume", "0.0.6"]
+            }
+          }
+        },
+        "win": {
+          "download": {
+            "url": "https://gitee.com/byp19980911/plume/raw/master/src/statics/win/plume-win_0_0_6.zip",
+            "md5": "ee92e8c8232dc59eeda79e56ae73edca",
+            "type": "zip",
+            "bin": "plume-win-0_0_6\\plume.exe"
+          },
+          "bin": "plume.exe",
+          "commands": {
+            "sanity": {
+              "args": ["-v"],
+              "output": ["plume", "0.0.6"]
+            }
+          }
+        }
+      }
+    }
+  }
+}
